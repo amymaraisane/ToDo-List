@@ -9,7 +9,7 @@ $('input[type="text"]').keypress(function(event){
 })
 
 //open/close addtodo input box
-$('#plusSign').on('click', function(){
+$('#plusSign').on('click touchstart', function(){
     $('#addToDo').fadeToggle();
 });
 
@@ -43,7 +43,7 @@ $('ul').on('click', '.red', function (event){
 //background image changer
  var counter = 0;
  $('body').addClass('mountain');
- $('#backgroundChanger').click(function(){
+ $('#backgroundChanger').on('click touchstart', function(){
     if(counter === 0){    
         $("body").attr('class', 'car');
         //this is a very useful method which removes all previous classes and adds a new one in
