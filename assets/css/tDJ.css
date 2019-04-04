@@ -1,0 +1,92 @@
+body {
+    color: white;
+    background-image: url("images/mountain.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#backgroundChanger {
+    background-color: rgb(150, 150, 150);
+    color: white;
+}
+#toDoHeader {
+    color: white;
+    padding-left: 10px;
+}
+#toDoBox {
+    width: 360px;
+    margin: 50px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    float: center;
+    padding: 10px 20px;
+}
+#plusSign{
+    float: right;
+}input {
+   width: 100%;
+   background-color: rgba(150, 150, 150, 0.5);
+   color: #fff;
+   font-size: 18px;
+   padding: 13px 13px 13px 20px;
+   box-sizing: border-box;
+   border: rgba(0, 0, 0, 0);
+   /* VERY useful trick for preventing the annoying border space when input is not in focus mode, makes input box flush*/
+}
+input:focus {
+    background-color: #fff;
+    border: 3px solid  rgb(136, 176, 245);
+    outline: none;
+    color: rgb(136, 176, 245);
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+ul { 
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    color: black;
+    margin-left: 0;
+    height: 34px;
+    line-height: 34px;
+    vertical-align: middle;
+}
+li:nth-child(even) {
+    background-color: rgb(136, 176, 245);
+}
+li:nth-child(odd) {
+    background-color: white;
+}
+.red {
+    background-color: red;
+    color: #fff;
+    height: 34px;
+    font-size: 0;
+    width: 0;
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block;
+    line-height: 34px;
+}
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+.car {
+    background-image:  url("file:///Users/amymaraisane/Desktop/Javascript/ToDojQuery/assets/css/images/car.jpeg");
+}
+
+.space {
+    background-image: url("file:///Users/amymaraisane/Desktop/Javascript/ToDojQuery/assets/css/images/space.jpeg");
+}
+
+.waterfall {
+    background-image: url("file:///Users/amymaraisane/Desktop/Javascript/ToDojQuery/assets/css/images/waterfall.jpeg");
+}
+
+.mountain {
+    background-image: url("file:///Users/amymaraisane/Desktop/Javascript/ToDojQuery/assets/css/images/mountain.jpeg");
+}
