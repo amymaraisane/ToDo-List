@@ -76,17 +76,17 @@ li:nth-child(odd) {
     color: grey;
 }
 .car {
-    background-image:  url("file:///Users/amymaraisane/Desktop/Javascript/ToDojQuery/assets/css/images/car.jpeg");
+    background-image: src="images/car.jpeg";
 }
 
 .space {
-    background-image: url("file:///Users/amymaraisane/Desktop/Javascript/ToDojQuery/assets/css/images/space.jpeg");
+    background-image: src="images/space.jpeg";
 }
 
 .waterfall {
-    background-image: url("file:///Users/amymaraisane/Desktop/Javascript/ToDojQuery/assets/css/images/waterfall.jpeg");
+    background-image: src="images/waterfall.jpeg";
 }
 
 .mountain {
-    background-image: url("file:///Users/amymaraisane/Desktop/Javascript/ToDojQuery/assets/css/images/mountain.jpeg");
+    background-image: src="images/mountain.jpeg";
 }
