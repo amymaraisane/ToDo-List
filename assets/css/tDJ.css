@@ -1,14 +1,31 @@
 body {
     color: white;
-    background-image: url("images/mountain.jpeg");
+    background-image: url("images/mountain.jpeg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
-#backgroundChanger {
+#backgroundChanger{
     background-color: rgb(150, 150, 150);
     color: white;
+}
+.car {
+    background-image: url(images/car.jpeg);
+}
+
+.space {
+    background-image: url(images/space.jpeg);
+}
+
+.waterfall {
+    background-image: url(images/waterfall.jpeg);
+}
+
+.mountain {
+    background-image: url(images/mountain.jpeg);
 }
 #toDoHeader {
     color: white;
@@ -74,19 +91,4 @@ li:nth-child(odd) {
 .completed {
     text-decoration: line-through;
     color: grey;
-}
-.car {
-    background-image: src="images/car.jpeg";
-}
-
-.space {
-    background-image: src="images/space.jpeg";
-}
-
-.waterfall {
-    background-image: src="images/waterfall.jpeg";
-}
-
-.mountain {
-    background-image: src="images/mountain.jpeg";
 }

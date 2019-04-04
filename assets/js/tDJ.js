@@ -9,7 +9,7 @@ $('input[type="text"]').keypress(function(event){
 })
 
 //open/close addtodo input box
-$('#plusSign').click( function(){
+$('#plusSign').on('click', function(){
     $('#addToDo').fadeToggle();
 });
 
