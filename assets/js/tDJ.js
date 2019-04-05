@@ -2,11 +2,19 @@
 $('input[type="text"]').keypress(function(event){
     if (event.which === 13){
         var userInput = $(this).val();
-        $('ul').append('<li><span class="red"><i class="far fa-trash-alt"></i></span>' + userInput + '</li>');
+        var capInput = capFirst(userInput);
+        $('ul').append('<li><span class="red"><i class="far fa-trash-alt"></i></span>' + capInput + '</li>');
         //takes html string as input
         $(this).val('');
     } 5e5
 })
+
+//capitalize first letter of user input
+function capFirst(e){
+    var cap1 = e.charAt(0).toUpperCase();
+    var capString = cap1 + e.slice(1);
+    return capString;
+};
 
 //open/close addtodo input box
 $('#plusSign').on('click touchstart', function(){
