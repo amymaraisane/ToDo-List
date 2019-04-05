@@ -81,12 +81,19 @@ li:nth-child(odd) {
     background-color: red;
     color: #fff;
     height: 34px;
-    font-size: 0;
+    font-size: 20px;
+    opacity: 0;
     width: 0;
     margin-right: 20px;
     text-align: center;
     display: inline-block;
     line-height: 34px;
+}
+li:hover .red {
+    width: 34px;
+    font-size: 20px;
+    transition-duration: 1s;
+    opacity: 1;
 }
 .completed {
     text-decoration: line-through;
